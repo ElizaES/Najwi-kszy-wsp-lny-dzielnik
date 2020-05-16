@@ -40,7 +40,7 @@ namespace WindowsFormsApp1
             int value2 = int.Parse(textBox2.Text);
             int NWD = Find_NWD(value1, value2);
             
-            label3.Text = "NWD dla liczb " + value1 + " i " + value2 + " wynosi " + Convert.ToString(NWD);
+            label3.Text = "NWD dla liczb " + value1 + " i " + value2 + " wynosi - " + Convert.ToString(NWD);
         }
     }
 }
